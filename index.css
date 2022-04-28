@@ -1,0 +1,1114 @@
+body{
+  background-color:whitesmoke;
+  width:100%
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*font-family: "Poppins", sans-serif;*/
+}
+
+:root {
+  --nav-bg: #03000e;
+  --main-clr: orange;
+  --nav-shadow: 0px 3px var(--main-clr);
+}
+
+#container{
+  width:100%;
+  position: relative;
+}
+
+.left{
+  position: fixed;
+  left:0;
+  top:0;
+  width:20%;
+  height:100vh;
+  background-color: grey;
+  padding:10px;
+  text-align: center;
+  line-height: 2;
+}
+
+.open{
+  padding:10px;
+  text-transform: capitalize;
+  background-color: white;
+  margin-top:30px;
+  border-bottom-left-radius: 20px;
+  box-shadow:  0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+}
+
+
+
+.announce{
+  padding:20px;
+  width:fit-content;
+  height:20vh;
+  background: white;
+  margin:0 auto;
+  margin-top:50px;
+  text-transform: capitalize;
+  color:lightgray;
+}
+
+.brief{
+  width:fit fit-content;
+  height:50vh;
+  text-transform: capitalize;
+  text-align:center;
+  margin-top:10px;
+  background:white;
+  color:black;
+  padding:30px;
+}
+
+.container{
+    height:1000vh;
+    width:80%;
+    background-color: white;
+    box-shadow:  0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+    font-family: edwardian script mt;
+    line-height: 1.5;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:5%;
+}
+
+.service{
+  height:60vh;
+  margin-left:10%;
+  margin-right:10%;
+  display:flex;
+  border-radius: 10px;
+  gap:50px;
+  align-items: center;
+  text-align: center;
+}
+
+.ser{
+  text-transform: capitalize;
+  margin-top:50px;
+  font-family: edwardian script mt;
+  margin-left:10%;
+  margin-right:10%;
+}
+.ser1{
+  width:200px;
+  height:230px;
+  background:white;
+  margin-left: 10px;
+  box-shadow:  0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+  border-radius: 10px;
+  padding:10px;
+}
+
+.ser2{
+  width:200px;
+  height:230px;
+  background:white;
+  box-shadow:  0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+  border-radius: 10px;
+  padding:10px;
+}
+
+
+.ser3{
+  width:200px;
+  height:230px;
+  background:white;
+  box-shadow:  0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+  border-radius: 10px;
+  padding:10px;
+}
+
+.ser1:hover, .ser2:hover, .ser3:hover{
+    height: 280px;
+    transition-duration: 1s;
+}
+
+
+.content-1{
+    width: 100%;
+    height:60vh;
+}
+
+.write-up{
+    width:100%;
+    position:absolute;
+    height:100%;
+    color:black;
+}
+
+.under{
+    margin-top:150px;
+    color:black;
+    margin-left:600px;
+    text-transform: capitalize;
+    font-size: 12pt;
+    font-family:candara ;
+}
+
+
+.starting{
+    background-image:  url("cover-pic.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+
+}
+
+.content-2{
+    width:fit-content;
+    height:fit-content;
+    padding:60px;
+    background-color:whitesmoke;
+    text-transform: capitalize;
+    margin:0 auto;
+    margin-top:3%;
+}
+
+.asc-2{
+    display:flex;
+    width:80%;
+    height:50vh;
+    margin-top:50px;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.l{
+    width:50%;
+    height:50vh;
+    text-align:center;
+    text-transform: capitalize;
+}
+
+.under-l{
+    width:300px;
+    height:300px;
+    border-radius: 100%;
+    background:whitesmoke;
+    margin:0 auto;
+    padding:80px;
+    box-shadow:  0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+}
+
+.underl-2{
+    width:300px;
+    height:300px;
+    border-radius: 100%;
+    background:whitesmoke;
+    margin:0 auto;
+    padding:80px;
+    box-shadow:  0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+}
+
+
+.r{
+    width: 50%;
+    height:50vh;
+    text-align:center;
+    
+    border-radius: 10px;
+    color:black;
+    text-transform: capitalize;
+    padding:40px;
+
+}
+
+.r{
+    width:50%;
+}
+
+.asc-3{
+    height:40vh;
+    background-color:white;
+    border:1px solid orange;
+    color:black;
+    text-transform: capitalize;
+    padding:60px;
+    line-height: 1.5;
+    width:fit-content;
+    margin-left:30%;
+    margin-right:15%;
+    margin-top:100px;
+}
+
+.strong{
+    margin-top:20px;
+}
+
+.asc-4{
+    margin-top: 150px;
+    width:80%;
+    display:flex;
+    height:60vh;
+    text-transform: capitalize;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.var-1{
+    width:50%;
+    text-align: left;
+    color: black;
+}
+
+.var-2{
+    width:50%;
+    background:orange;
+    border-radius: 10px;
+    color:white;
+    text-align: center;
+}
+
+.down{
+    margin-top:10px;
+    font-family: edwardian script mt;
+    padding:50px;
+}
+
+
+#about{
+    line-height: 1.5;
+}
+
+.copyright{
+  font-size:20px;
+  text-align:center;
+} 
+
+footer{
+  width:100%;
+  height:30vh;
+  padding:20px;
+  text-align:center;
+  background-color:orange;
+  margin-top:280px;
+  color:white;
+  text-transform: capitalize;
+  font-family: candara;
+}
+
+.copyright a{
+  font-size: 12pt;
+  text-decoration:none;
+  color: white;
+}
+
+
+.designs{
+  height: 100vh;
+  background-color: white;
+  margin-top: 100px;  
+  color: black;
+  padding:20px;
+  text-align:center;
+  text-transform: capitalize;
+}
+
+.spliter{
+  margin-top:50px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  gap:30px;
+}
+
+.row{
+  height:200px;
+  width:200px;
+  border-radius:100%;
+  box-shadow:  0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+  object-fit:cover;
+}
+
+.l-l{
+  margin-left:200px;
+}
+
+.spleck{
+  text-align:center;
+  text-transform: capitalize;
+  margin-top:50px;
+}
+
+.listed{
+  margin-top:50px;
+  font-family: candara;
+}
+
+.anime{
+  margin-top:200px;
+  height:50vh;
+  border:1px solid orange;
+  text-transform: capitalize;
+  text-align: center;
+  width:80%;  
+  margin-left:10%;
+  margin-right:10%;
+  border-radius: 10px;
+  border-bottom: 60px solid orange;
+  position: relative;
+  background:#ccc;
+}
+
+.city{
+  position:absolute;
+  width:70px;
+  height:35vh;
+  left:700px;
+  top:50px;
+  background-color: orange;
+}
+
+
+
+.city-2{
+  position:absolute;
+  width:70px;
+  height:40vh;
+  left:250px;
+  top:30px;
+  background-color: orange;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.into{
+  display:block;
+  gap:10px;
+}
+
+.into-1{
+  border-radius: 100%;
+  width:20px;
+  height:20px;
+  background-color: orangered;
+  margin:0 auto;
+  margin-top:20px;
+}
+
+.into-2{
+  border-radius: 100%;
+  width:20px;
+  height:20px;
+  background-color: yellow;
+  margin:0 auto;
+  margin-top:40px;
+}
+
+.into-3{
+  border-radius: 100%;
+  width:20px;
+  height:20px;
+  background-color: green;
+  margin:0 auto;
+  margin-top:50px;
+}
+
+.city-3{
+  position:absolute;
+  width:70px;
+  height:20vh;
+  left:350px;
+  top:140px;
+  background-color:grey;
+}
+
+.city-4{
+  position:absolute;
+  width:70px;
+  height:30vh;
+  left:500px;
+  top:70px;
+  background-color:grey;
+}
+
+
+.city-5{
+  width:100px;
+  height:100px;
+  background:orange;
+  top:10px;
+  left:20px;
+  position:absolute;
+  border-radius: 100%;
+}
+
+.into-4{
+  width:20px;
+  height:20px;
+  background-color: orange;
+  margin:0 auto;
+  margin-top:40px;
+}
+
+
+.into-5{
+  width:20px;
+  height:20px;
+  background-color: orange;
+  margin:0 auto;
+  margin-top:10px;
+}
+
+.into-6{
+  width:20px;
+  height:20px;
+  background-color: orange;
+  margin:0 auto;
+  margin-top:10px;
+}
+
+
+.into-7{
+  width:20px;
+  height:20px;
+  background-color: orange;
+  margin:0 auto;
+  margin-top:10px;
+}
+
+.into-8, .into-9, .into-10{
+  width:20px;
+  height:20px;
+  background-color: grey;
+  margin:0 auto;
+  margin-top:50px;
+}
+
+
+
+
+@keyframes myAnime{
+    from{
+      left:0px;
+      background-color:black ;
+  }
+
+  to{
+      background: orange;
+      left:670px;
+  }
+}
+
+@keyframes myAnica{
+    from{
+      font-size:15px;
+    }
+
+    to{
+      font-size: 25px;
+    }
+}
+.gather{
+  gap:100px;
+  display:flex;
+}
+
+
+
+.round{
+  width:40px;
+  height:40px;
+  background: orange;
+  border-radius: 100%;
+  animation-name:myAnime;
+  animation-duration: 6s;
+  position:relative;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+  animation-play-state:running;
+  z-index: 1;
+}
+
+.high{
+  animation-name:myAnica;
+  animation-duration: 4;
+  animation-fill-mode: forwards;
+}
+
+.beaneath{
+  margin-top: 100px;
+}
+
+.rec{
+  width: 200px;
+  animation-name:myAnime;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction:normal ;
+  animation-play-state:running;
+  position: relative;
+  color:black;
+  text-align: center;
+  border-left:70px solid transparent;
+  border-right:70px solid transparent;
+  border-bottom:60px solid orange;
+  text-transform: capitalize;
+  margin-top:50px;
+  border-top-right-radius: 50px;
+  z-index: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background:transparent;
+}
+
+.butt-1{
+    width:100px;
+    padding: 10px;
+    margin: 8px 0;
+    border:none;
+    box-shadow: 0px 5px 5px #ccc;
+    border-radius: 5px;
+    color:white;
+    background:orange;
+    text-transform: capitalize;
+    cursor:progress;
+}
+
+.butt-1:hover{
+    background:black;
+    transition-duration: 1s;
+}
+
+nav .logo {
+  color: black;
+  text-decoration-color: orange;
+  font-size: 28px;
+  font-family: bikinis personal use;
+  font-weight: 100 0px 3px var(--main-clr)
+}
+
+.way{
+    color:orange;
+    font-family: inherit;
+}
+
+nav ul {
+  --padding: 25px;
+  --font-size: 17px;
+
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size);
+  overflow-y: hidden;
+  transition: 1s cubic-bezier(.68,-0.55,.27,10.55);
+  box-shadow: var(--nav-shadow);
+}
+
+nav ul li {
+  padding: var(--padding);
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: "";
+  width: 0%;
+  height: 1.7px;
+  border-radius: 99px;
+  background: var(--main-clr);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+nav .menu {
+  width: 22px;
+  height: 16px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  margin: 20px;
+}
+
+nav .menu span {
+  width: 100%;
+  height: 2px;
+  border-radius: 99px;
+  background: #fff;
+  transition: 0.3s ease;
+  transform-origin: left;
+}
+
+nav .menu.active span {
+  background: var(--main-clr);
+}
+
+nav .menu.active span:nth-child(1) {
+  transform: rotate(40deg);
+}
+
+nav .menu span:nth-child(3) {
+  transform-origin: left;
+}
+
+nav .menu.active span:nth-child(3) {
+  transform: rotate(-40deg);
+}
+
+nav .menu.active span:nth-child(2) {
+  transform: scale(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 910px) {
+  nav .menu {
+    display: flex;
+  }
+
+  nav ul {
+    --height: 0px;
+
+    flex-direction: column;
+    background: var(--nav-bg);
+    position:absolute;
+    width: 100%;
+    left: 0;
+    top: 56px;
+    height: var(--height);
+    transition: 1s cubic-bezier(.68,-0.55,.27,1.55);
+    z-index: 1;
+  }
+  nav ul.active {
+    --height: calc(
+      (((var(--padding) * 2) + (var(--font-size) * 1.5))) * var(--childenNumber)
+    );
+    /*   (Block Level Padding + The Font Size) * The Number of Children   */
+    
+    
+    transition: 1s ease;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+  nav ul li a {
+    width: 100%;
+    text-transform: capitalize;
+  }
+
+  .left{
+    width:100%;
+    height:100%;
+    background-color: orange;
+    position: fixed;
+    margin: 0;
+  }
+
+
+  .container{
+      margin-top: 0;
+      margin-left:0;
+      margin-right:0;
+      width:100%;
+  }
+
+  nav{
+      background:black;
+      color:white;
+  }
+
+  nav ul li a{
+      color:white;
+      z-index: 1;
+  }
+
+  nav .logo{
+      color:white;
+  }
+
+  .starting{
+      height:60vh;
+  }
+
+  .under{
+      margin-left:60px;
+      margin-top:70px;
+  }
+
+  .asc-2{
+      margin-left:0;
+      margin-right:0;
+      width:100%;
+      display: block;
+  }
+
+  .l{
+      width:100%;
+  }
+
+  .r{
+      width:100%;
+      margin-top:100px;
+  }
+
+  .under-l{
+      margin-top:170px;
+  }
+
+  .underl-2{
+      margin-top:400px;
+  }
+
+  .container{
+      box-shadow: none;
+      height: 1502vh;
+      max-width: 600px;
+      position:relative;
+      left:0;
+  }
+
+  .asc-3{
+      height:fit-content;
+      margin-top: 200px;
+      width:80%;
+      padding:30px;
+      margin-left:0;
+      margin-right:0;
+  }
+
+  .asc-4{
+      width:100%;
+      margin-right:0;
+      margin-left:0;
+      display:block;
+      margin-top:900px;
+  }
+
+  .var-1{
+      width:100%;
+      height:100%;
+      text-align:center;
+  }
+
+  .var-2{
+      width:80%;
+      height:100%;
+      margin-top:180px;
+      margin-left:0;
+      margin-right:0;
+  }
+
+  .down{
+      padding:20px;
+  }
+
+  #location{
+      width:100%;
+  }
+
+  footer{
+    margin-top:130px;
+  }
+
+  .spliter{
+    display:block;
+  }
+
+  .l-l{
+    margin-left:0;
+    margin-top:100px;
+  }
+
+  .c-c{
+    margin-top:50px;
+  }
+
+  .r-r{
+    margin-top:100px;
+  }
+
+  .designs{
+    margin-top: 500px;
+    background:white;
+  }
+
+  .row{
+    border-radius: 50px;
+  }
+
+  .anime{
+    margin-top:300px;
+    margin-left:0;
+    margin-right:0;
+    width:100%;
+    height:55vh;
+  }
+
+  .rec{
+    width: 130px;
+    animation-name:myAnime;
+    animation-duration: 4s;
+    position:relative;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    animation-play-state:running;
+    color:black;
+    text-align: center;
+    border-left:none;
+    border-right:none;
+    border-bottom:none;
+    text-transform: capitalize;
+    margin-top:120px;
+    border-top-right-radius: 50px;
+    height:70px;
+    }
+
+    .high{
+      font-size: 13pt;
+    }
+
+    .round{
+      width:30px;
+      height:30px;
+      background: orange;
+      border-radius: 100%;
+      animation-name:myAnime;
+      animation-duration: 4s;
+      position:relative;
+      animation-iteration-count: infinite;
+      animation-direction:alternate-reverse;
+      animation-play-state:running;
+    }
+
+    .gather{
+      gap:50px;
+    }
+
+    .city-2{
+        left:50px;
+        width:40px;
+        height:42vh;
+    }
+
+    .city-3{
+      left:150px;
+      height: 24vh;
+    }
+
+    .city-4{
+      left:240px;
+      top:100px;
+    }
+
+    .city{
+      display:none;
+    }
+
+    .city-5{
+      width:50px;
+      height:50px;
+      left:300px;
+      background:white;
+    }
+
+    @keyframes myAnime{
+      from{
+        left:0;
+        background-color:black ;
+    }
+  
+    to{
+        background: orange;
+        left: 250px;
+    }
+  }
+
+    .left{
+      display:none; 
+    }
+
+    .service{
+      display:block;
+      margin-left: 0;
+      margin-right:0;
+      height:180vh;
+      font-family: edwardian script mt;
+    }
+
+    .ser1{
+      margin-top:50px;
+      margin-left:70px;
+    }
+
+    .ser2{
+      margin-top:100px;
+      margin-left:70px;
+      margin-right:0;
+    }
+
+    .ser3{
+      margin-top:100px;
+      margin-left:70px;
+      margin-right:0;
+    }
+
+    .ser{
+      margin-left:0;
+      margin-right: 0;
+      background-color: white;
+      margin-top:900px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*@media only screen and (orientation: landscape) {
+      .container{
+        height:fit-content;
+      }
+
+      .starting{
+        
+      }
+
+      .asc-2{
+        margin-top:100px;
+      }
+
+      .r{
+        margin-top: 200px;
+      }
+
+      .underl-2{
+        margin-top: 500px;
+      }
+
+      .var-2{
+        height:fit-content;
+        width:50%;
+      }
+
+      .asc-4{
+        margin-top: 1100px;
+      }
+
+      .asc-3{
+        width:50%;
+      }
+
+      .anime{
+        height:110vh;
+      }
+
+      .city-2{
+        left:50px;
+        width:40px;
+        height:80vh;
+    }
+
+    .city-3{
+      left:170px;
+      height:40vh;
+    }
+
+    .city-4{
+      left:340px;
+      top:100px;
+      height:56vh;
+    }
+
+    .city{
+      display:block;
+      left:450px;
+      height:70vh;
+      top:60px;
+      border-top-right-radius: 10px;
+    }
+
+    .city-5{
+      left:500px;
+    }
+
+    .rec{
+      margin-top:80px;
+    }
+
+    .copyright{
+      height:60vh;
+    }
+
+    .container{
+      height:950vh;
+    }
+
+      @keyframes myAnime{
+        from{
+          left:0;
+          background-color:black;
+      }
+    
+      to{
+          background: orange;
+          left: 350px;
+      }
+    }
+  }*/

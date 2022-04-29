@@ -416,7 +416,7 @@ footer{
 .city-3{
   position:absolute;
   width:70px;
-  height:20vh;
+  height:18vh;
   left:350px;
   top:140px;
   background-color:grey;
@@ -425,7 +425,7 @@ footer{
 .city-4{
   position:absolute;
   width:70px;
-  height:30vh;
+  height:27vh;
   left:500px;
   top:70px;
   background-color:grey;
@@ -907,7 +907,7 @@ nav .menu.active span:nth-child(2) {
     border-right:none;
     border-bottom:none;
     text-transform: capitalize;
-    margin-top:120px;
+    margin-top:100px;
     border-top-right-radius: 50px;
     height:70px;
     }
@@ -968,7 +968,7 @@ nav .menu.active span:nth-child(2) {
   
     to{
         background: orange;
-        left: 250px;
+        left: 220px;
     }
   }
 
